@@ -1,0 +1,57 @@
+section {
+  color: white;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  padding-top: 4px;
+  border-radius: 10px;
+  animation: CardFromBottom 0.7s backwards;
+}
+section h2 {
+  letter-spacing: -0.47px;
+}
+main section:nth-child(1) {
+  animation-delay: 0s;
+}
+main section:nth-child(3) {
+  animation-delay: 0.4s;
+}
+main section:nth-child(4) {
+  animation-delay: 1s;
+}
+
+section p {
+  letter-spacing: -0.18px;
+  color: #a1a1aa;
+}
+
+section div {
+  padding: 30px;
+  padding-top: 24px;
+  border-radius: 8px;
+  background-color: #2a2634;
+}
+section div ul {
+  margin-top: 24px;
+}
+section div ul li {
+  transition: transform 0.3s;
+}
+
+section div ul li:hover {
+  transform: scale(1.1);
+}
+
+@keyframes CardFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
