@@ -5,7 +5,7 @@ export const Games = ({ games, imageGames }) => {
     <section>
       <div>
         <h2>Meus jogos</h2>
-        <p>Games que eu gosto de jogar!</p>
+        <p>Os games que eu mais curto jogar!</p>
         <UlStyled>
           {games?.map((game, index) => (
             <li key={index}>

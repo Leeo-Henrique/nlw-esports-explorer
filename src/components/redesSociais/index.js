@@ -1,8 +1,15 @@
+/* eslint-disable no-array-constructor */
 import { UlStyled } from "./styles";
+import { twitchLogo, instagramLogo, youtubeLogo } from "./svg";
 import "../global.css";
-import { Logos } from "./svg";
-export const RedesSociais = ({ StreamersArray, StreamersImagens }) => {
-  const RedesSociaisArray = new Array(Logos);
+export const RedesSociais = () => {
+  const RedesSociaisArray = new Array(twitchLogo, instagramLogo, youtubeLogo);
+  const links = [
+    "https://www.twitch.tv/leeo_ziito",
+    "https://www.instagram.com/leeo_henrique.17/",
+    "https://www.youtube.com/channel/UCWLbHAXsYcKQYWvDpUyctuQ",
+  ];
+
   return (
     <section>
       <div>
@@ -11,7 +18,7 @@ export const RedesSociais = ({ StreamersArray, StreamersImagens }) => {
         <UlStyled>
           {RedesSociaisArray?.map((redes, index) => (
             <li key={index}>
-              <a href="google.com" target="_blank" rel="noreferrer">
+              <a href={links[index]} target="_blank" rel="noreferrer">
                 {redes}
               </a>
             </li>

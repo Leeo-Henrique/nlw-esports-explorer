@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", "sans-serif";
 }
 body {
   background-image: url(assets/Fundo.png);
@@ -12,7 +13,6 @@ body {
   background-color: #121214;
 }
 body * {
-  font-family: "Inter", "sans-serif";
   line-height: 160%;
 }
 
