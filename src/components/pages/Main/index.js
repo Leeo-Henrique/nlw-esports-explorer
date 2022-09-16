@@ -9,11 +9,13 @@ export const MainPage = () => {
     "https://www.twitch.tv/directory/game/Mobile%20Legends%3A%20Bang%20Bang",
     "https://www.twitch.tv/directory/game/Rocket%20League",
     "https://www.twitch.tv/directory/game/Ultimate%20Mortal%20Kombat%203",
+    "https://www.twitch.tv/directory/game/Minecraft",
   ];
   const imageDeGames = [
     "https://static-cdn.jtvnw.net/ttv-boxart/494184_IGDB-144x192.jpg",
     "https://static-cdn.jtvnw.net/ttv-boxart/30921-144x192.jpg",
     "https://static-cdn.jtvnw.net/ttv-boxart/1999_IGDB-144x192.jpg",
+    "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg",
   ];
 
   const StreamersArray = [
